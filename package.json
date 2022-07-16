@@ -1,0 +1,23 @@
+{
+  "name": "xialy",
+  "version": "1.0.0",
+  "description": "url shortner developed using nodeJs",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url-shortner",
+    "nodeJs"
+  ],
+  "author": "Rahul Kuanr (Xeno)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.4",
+    "shortid": "^2.2.16"
+  }
+}
